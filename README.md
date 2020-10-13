@@ -70,3 +70,7 @@ In Gemfile:
 ### Solution
 
 Install postgresql
+
+or 
+
+`bundle install --without production`
