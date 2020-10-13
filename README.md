@@ -55,3 +55,18 @@ Webpacker configuration file not found /Users/joel.lim/git/environment/hello_app
 ```
 rails webpacker:install
 ```
+
+## `pg` 
+
+```
+An error occurred while installing pg (1.2.3), and Bundler cannot continue.
+Make sure that `gem install pg -v '1.2.3' --source 'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  pg
+➜  hello_app git:(master) ✗ gem install pg -v '1.2.3'
+```
+
+### Solution
+
+Install postgresql
