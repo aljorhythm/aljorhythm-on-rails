@@ -23,6 +23,18 @@ Things you may want to cover:
 
 * ...
 
+# Learnings
+
+generate scaffold
+`rails generate scaffold User name:string email:string`
+
+rails migrate
+`rails db:migrate`
+
+reset migrations
+`rake db:migrate:reset`
+
+
 # Problems
 
 ## Installing `puma`
